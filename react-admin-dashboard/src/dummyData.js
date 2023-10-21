@@ -1,0 +1,90 @@
+export const userRows = [
+  { no: 1, name: "홍길동", id: "abcde" },
+  { no: 2, name: "김길동", id: "abcdef" },
+  { no: 3, name: "이길동", id: "abcdeg" },
+  { no: 4, name: "박길동", id: "abcdeh" },
+  { no: 5, name: "최길동", id: "abcdei" },
+];
+
+export const QnARows = [
+  {
+    no: 1,
+    date: "000000",
+    name: "홍길동",
+    title: "문의제목",
+    naeyong: "문의드립니다.",
+  },
+  {
+    no: 2,
+    date: "000000",
+    name: "김길동",
+    title: "문의제목",
+    naeyong: "문의드립니다.",
+  },
+  {
+    no: 3,
+    date: "000000",
+    name: "이길동",
+    title: "문의제목",
+    naeyong: "문의드립니다.",
+  },
+];
+
+export const manualRows = [
+  {
+    id: 1,
+    name: "플라스틱",
+    img: "https://images.pexels.com/photos/8066715/pexels-photo-8066715.png?cs=srgb&dl=pexels-mediamodifier-8066715.jpg&fm=jpg",
+    content: "이러저러하게 분리수거하세요.",
+    status: "active",
+    price: "$120.00",
+  },
+  {
+    id: 2,
+    name: "유리",
+    img: "https://images.pexels.com/photos/4065890/pexels-photo-4065890.jpeg?cs=srgb&dl=pexels-cottonbro-4065890.jpg&fm=jpg",
+    content: "이러저러하게 분리수거하세요.",
+    status: "active",
+    price: "$120.00",
+  },
+  {
+    id: 3,
+    name: "비닐",
+    img: "https://images.pexels.com/photos/7205060/pexels-photo-7205060.jpeg?cs=srgb&dl=pexels-levi-loot-7205060.jpg&fm=jpg",
+    content: "이러저러하게 분리수거하세요.",
+    status: "active",
+    price: "$120.00",
+  },
+  {
+    id: 4,
+    name: "스티로폼",
+    img: "https://images.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg?cs=srgb&dl=pexels-pixabay-4158.jpg&fm=jpg",
+    content: "이러저러하게 분리수거하세요.",
+    status: "active",
+    price: "$120.00",
+  },
+  {
+    id: 5,
+    name: "캔",
+    img: "",
+    content: "이러저러하게 분리수거하세요.",
+    status: "active",
+    price: "$120.00",
+  },
+  {
+    id: 6,
+    name: "종이",
+    img: "",
+    content: "이러저러하게 분리수거하세요.",
+    status: "active",
+    price: "$120.00",
+  },
+  {
+    id: 7,
+    name: "일반쓰레기",
+    img: "",
+    content: "이러저러하게 분리수거하세요.",
+    status: "active",
+    price: "$120.00",
+  },
+];
