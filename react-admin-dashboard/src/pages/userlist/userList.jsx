@@ -28,6 +28,11 @@ const columns = [
 export default function userList() {
   return (
     <div className="userList">
+      <div className="userList">
+        <div className="userListContainer">
+          <h1 className="userlistTitle">회원 관리</h1>
+        </div>
+      </div>
       <DataGrid
         rows={userRows}
         disableSelectonOnClick

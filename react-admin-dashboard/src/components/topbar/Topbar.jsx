@@ -1,5 +1,6 @@
 import React from "react";
 import "./topbar.css";
+import { Link } from "react-router-dom";
 //import ContactEmergencyIcon from "@mui/icons-material/ContactEmergency";
 //import LogoutIcon from "@mui/icons-material/Logout";
 
@@ -13,8 +14,12 @@ export default function Topbar() {
           </span>
         </div>
         <div className="topRight">
-          <button className="modify">정보수정</button>
-          <button className="logout">나가기</button>
+          <Link to={"/mypage"}>
+            <button className="modify">내 정보수정</button>
+          </Link>
+          <Link to={"/login"}>
+            <button className="logout">나가기</button>
+          </Link>
         </div>
       </div>
     </div>

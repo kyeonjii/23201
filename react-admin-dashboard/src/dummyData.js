@@ -8,25 +8,25 @@ export const userRows = [
 
 export const QnARows = [
   {
-    no: 1,
+    id: 1,
     date: "000000",
     name: "홍길동",
     title: "문의제목",
-    naeyong: "문의드립니다.",
+    content: "문의드립니다.",
   },
   {
-    no: 2,
+    id: 2,
     date: "000000",
     name: "김길동",
     title: "문의제목",
-    naeyong: "문의드립니다.",
+    content: "문의드립니다.",
   },
   {
-    no: 3,
+    id: 3,
     date: "000000",
     name: "이길동",
     title: "문의제목",
-    naeyong: "문의드립니다.",
+    content: "문의드립니다.",
   },
 ];
 

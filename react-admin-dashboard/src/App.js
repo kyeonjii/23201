@@ -8,6 +8,7 @@ import Login from "./pages/login/Login";
 import QnA from "./pages/QnA/QnA";
 import Manual from "./pages/manual/Manual";
 import Product from "./pages/product/Product";
+import Mypage from "./pages/mypage/Mypage";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -25,6 +26,7 @@ function App() {
           <Route path="/manual" element={<Manual />} />
           <Route path="/product/:productId" element={<Product />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/mypage" element={<Mypage />} />
         </Routes>
       </div>
     </Router>

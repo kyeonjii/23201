@@ -32,13 +32,13 @@ export default function Manual() {
     { field: "content", headerName: "내용", width: 400 },
     {
       field: "action",
-      headerName: "Action",
+      headerName: "수정",
       width: 150,
       renderCell: (params) => {
         return (
           <>
             <Link to={"/product/" + params.row.id}>
-              <button className="productListEdit">Edit</button>
+              <button className="productListEdit">정보수정</button>
             </Link>
             <DeleteOutline
               className="productListDelete"
@@ -52,6 +52,11 @@ export default function Manual() {
 
   return (
     <div className="productList">
+      <div className="manuallist">
+        <div className="ManualContainer">
+          <h1 className="manualTitle">분리배출 매뉴얼 관리</h1>
+        </div>
+      </div>
       <DataGrid
         rows={data}
         disableSelectionOnClick
