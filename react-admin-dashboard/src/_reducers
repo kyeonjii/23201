@@ -1,0 +1,7 @@
+export function createStore(initialState) {
+ return createReduxStore(
+  reducer,
+  initialState,
+  composeEnhancers(applyMiddleware(thunk))
+ );
+}
