@@ -88,3 +88,13 @@ export const manualRows = [
     price: "$120.00",
   },
 ];
+
+export const locationRows = [
+  {
+    id: 1,
+    gu: "중랑구",
+    location: "서울특별시 중랑구 신내로 155",
+    location_2: "신내 8단지, 서울의료원(07-279)",
+    wlwja: "버스정류장",
+  },
+];
